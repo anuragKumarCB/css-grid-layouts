@@ -10,3 +10,37 @@ ul, li{
     padding: 0;
     list-style: none;
 }
+/* ul li a{
+    color: black;
+}
+.grid-content{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+.grid-content > *{
+    padding: 0 20px;
+}
+article img{
+    width: 100%;
+}
+header{
+    grid-column: span 5;
+    border-bottom: 1px solid;
+    text-align: center;
+}
+nav{
+    border-right: 1px solid;
+}
+.grid-content > article{
+    grid-column: span 3;
+    padding: 50px;
+}
+aside{
+    border-left: 1px solid;
+}
+footer{
+    border-top: 1px solid;
+    grid-column: span 5;
+    text-align: center;
+
+} */
