@@ -10,7 +10,10 @@ ul, li{
     padding: 0;
     list-style: none;
 }
-h1,h2,h3,h4{
+h1,h2{
+    color: rgb(86, 86, 86);
+}
+h3,h4{
     color: rgb(100, 100, 100);
 }
 h2{
@@ -45,7 +48,7 @@ article img, .featured-article img{
     border: 5px solid white;
 }
 .featured-article {
-    grid-column: 1/ 4;
+    grid-column: span 3;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 60px;
