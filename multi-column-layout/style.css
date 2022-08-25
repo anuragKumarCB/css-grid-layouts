@@ -50,3 +50,10 @@ article img, .featured-article img{
     align-items: center;
     /* padding-bottom: 40px; */
 }
+.lake-canada{
+    grid-column: span 3;
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding: 20px;
+    margin: 0;
+
+}
