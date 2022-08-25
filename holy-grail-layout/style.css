@@ -80,3 +80,19 @@ footer{
         padding: 16px;
     }
 }
+@media screen and (max-width:980px) {
+    article, aside, footer{
+        grid-column: span 3;
+    }
+    aside{
+        border-left: 0;
+        border-top: 1px solid #ddd;
+        padding: 0 30px;
+    }
+    article h2{
+        font-size: 2.5rem;
+    }
+    article h3{
+        font-size: 1.4rem;
+    }
+}
