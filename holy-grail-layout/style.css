@@ -9,7 +9,6 @@ body{
 ul, li{
     padding: 0;
     list-style: none;
-    margin: 5px 0;
 }
 .grid-content{
     display: grid;
@@ -24,6 +23,9 @@ header{
 nav{
     padding: 30px;
     border-right: 1px solid #ddd;
+}
+nav ul li{
+    margin: 10px 0;
 }
 ul li a{
     color: black;
@@ -56,4 +58,25 @@ footer{
     text-align: center;
     border-top: 1px solid #ddd;
     padding: 30px;
+}
+
+/* media - query */
+
+@media screen and (max-width:1200px) {
+    nav{
+        grid-column: span 3;
+        border-right: 0;
+        border-bottom: 1px solid #ddd;
+        padding: 0 30px;
+    }
+    nav ul li {
+        display: inline-block;
+        margin-right: 10px;
+    }
+    article{
+        grid-column: span 2;
+    }
+    aside{
+        padding: 16px;
+    }
 }
