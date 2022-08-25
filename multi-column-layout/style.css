@@ -67,3 +67,12 @@ article img, .featured-article img{
         align-items: center;
     }
 }
+@media screen and (max-width:760px) {
+    article, .featured-article{
+        display: block;
+        margin: 0 30px;
+    }
+    header,.lake-canada{
+        margin: 0px 30px;
+    }
+}
