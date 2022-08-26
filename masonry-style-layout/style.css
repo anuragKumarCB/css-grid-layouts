@@ -7,6 +7,9 @@ body{
     font-family: 'Poppins', sans-serif;
     background-color: rgb(247, 247, 247);
 }
+
+/* header - style */
+
 header{
     background-color: #fff;
     padding: 10px;
@@ -35,3 +38,5 @@ nav h1 div:first-child{
 nav h1 div:last-child{
     font-weight: 400;
 }
+
+/* main - style */
