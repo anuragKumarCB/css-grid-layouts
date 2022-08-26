@@ -60,3 +60,11 @@ main div{
     border: 16px solid #fff;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
+
+/* short - tall - style */
+main .short{
+    grid-row: span 1;
+}
+main .tall{
+    grid-row: span 2;
+}
