@@ -81,7 +81,6 @@ footer{
     }
     nav ul li {
         display: inline-block;
-        margin-right: 10px;
     }
     article{
         grid-column: span 2;
@@ -104,5 +103,18 @@ footer{
     }
     article h3{
         font-size: 1.4rem;
+    }
+    nav h4{
+        padding: 0;
+    }
+    ul li a{
+        margin-right: 10px;
+        padding: 0;
+    }
+    ul li a:hover{
+        color: rgb(48, 48, 48);
+        text-decoration: none;
+        background-color: #ccc;
+        border-radius: 30px;
     }
 }
