@@ -62,7 +62,7 @@ main div{
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
 }
 main div h3, p, a{
-    padding: 0 20px;
+    padding: 5px 30px;
 }
 
 /* short - tall - style */
@@ -71,4 +71,11 @@ main .short{
 }
 main .tall{
     grid-row: span 2;
+}
+
+@media screen and (max-width: 980px){
+    main{
+        grid-template-columns: 1fr 1fr;
+        padding: 0 100px;
+    }
 }
