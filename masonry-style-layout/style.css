@@ -22,10 +22,19 @@ nav{
     text-align: center;
     align-items: center;
 }
+
+/* nav tags - style */
+
 nav a{
     text-decoration: none;
     color: #333;
 }
+nav a:hover{
+    color: rgb(255, 115, 0);
+}
+
+/* nav header/logo - style */
+
 nav h1{
     text-transform: uppercase;
     line-height: 1.5rem;
@@ -40,6 +49,7 @@ nav h1 div:last-child{
 }
 
 /* main - style */
+
 main{
     max-width: 1200px;
     margin: 60px auto;
@@ -60,12 +70,23 @@ main div{
     /* border: 16px solid #fff; */
     /* padding: 20px; */
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.05);
+
+}
+
+/* main tags - style */
+
+main a{
+    color: rgb(255, 115, 0);
+}
+main a:hover{
+    text-decoration: none;
 }
 main div h3, p, a{
     padding: 5px 30px;
 }
 
 /* short - tall - style */
+
 main .short{
     grid-row: span 1;
 }
@@ -73,10 +94,15 @@ main .tall{
     grid-row: span 2;
 }
 
+/* footer - style */
+
 footer p{
     text-align: center;
     margin-bottom: 20px;
 }
+
+/* media - query */
+
 @media screen and (max-width: 980px){
     main{
         grid-template-columns: 1fr 1fr;
