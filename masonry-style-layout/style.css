@@ -82,8 +82,8 @@ main .tall{
 @media screen and (max-width: 640px){
     main{
         grid-template-columns:1fr ;
-        max-width: 400px;
-        margin: 30px auto;
+        max-width: 380px;
+        margin: 60px auto;
     }
     nav{
         grid-template-columns: repeat(4, 1fr);
@@ -93,4 +93,12 @@ main .tall{
         grid-row: 1;
         border-bottom: 1px solid #333;
     }
+}
+@media screen and (max-width:470px) {
+   main{
+    margin: 30px auto;
+   }
+   nav a{
+    grid-column: span 2;
+   }
 }
